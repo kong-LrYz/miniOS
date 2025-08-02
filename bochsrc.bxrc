@@ -1,0 +1,11 @@
+megs: 32
+romimage: file="BIOS-bochs-latest"
+vgaromimage: file="VGABIOS-lgpl-latest"
+floppya: 1_44="test.img", status=inserted
+boot: a
+log: bochsout.txt
+clock: sync=realtime
+cpu: count=1, ips=1000000
+display_library: win32
+mouse: enabled=0
+#keyboard: type=mf, serial_delay=2500, paste_delay=100000
